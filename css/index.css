@@ -7,7 +7,7 @@
 :root {
   --dark-color: #101010;
   --dark-color-50: rgba(16, 16, 16, 0.5);
-  --color-accent: #23C3B2;
+  --accent-color: #23C3B2;
 }
 
 .ml-5 {
@@ -167,7 +167,7 @@ body {
 }
 
 .cta {
-  border: 8px solid var(--color-accent);
+  border: 8px solid var(--accent-color);
   padding: 36px 0 70px 50px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.83) 50%), url("../img/cta.webp") center/auto 100% repeat-x;
   display: flex;
@@ -273,12 +273,19 @@ body {
 }
 
 .btn {
-  background: var(--color-accent);
+  background: var(--accent-color);
   height: 55px;
   min-width: 200px;
   padding: 10px;
   border: none;
+  cursor: pointer;
   border-radius: 5px;
+  position: relative;
+  transition: all 0.3s;
+}
+.btn:hover {
+  translate: 0 -2px;
+  color: var(--dark-color);
 }
 
 .burger {

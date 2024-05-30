@@ -1,9 +1,16 @@
 .btn {
-  background: var(--color-accent);
+  background: var(--accent-color);
   height: 55px;
   min-width: 200px;
   padding: 10px;
   border: none;
-
+  cursor: pointer;
   border-radius: 5px;
+  position: relative;
+  transition: all 0.3s;
+
+  &:hover {
+    translate: 0 -2px;
+    color: var(--dark-color);
+  }
 }
