@@ -4,7 +4,7 @@ body {
 }
 
 .snap-container {
-  max-height: 100dvh;
+  max-height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
@@ -15,6 +15,7 @@ body {
 }
 
 .section {
+  height: 100dvh;
   min-height: 100dvh;
 }
 

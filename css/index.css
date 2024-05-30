@@ -66,7 +66,7 @@ body {
 }
 
 .snap-container {
-  max-height: 100svh;
+  max-height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
@@ -77,7 +77,8 @@ body {
 }
 
 .section {
-  min-height: 100svh;
+  height: 100dvh;
+  min-height: 100dvh;
 }
 
 .menu {
@@ -138,7 +139,6 @@ body {
 
 .offline {
   padding-top: 80px;
-  max-height: 100dvh;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -260,7 +260,7 @@ body {
 }
 .benefits__title {
   margin-bottom: 30px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .benefits__list {
   display: grid;
